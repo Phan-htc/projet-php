@@ -1,0 +1,15 @@
+créée un utilisateur qui peux :
+saisir l'un des paramètres nom, code ou id via un formulaire afin d'afficher les caractéristiques complètes d'un pays,
+
+via un autre formulaire présent sur la même page afficher tous les pays dans un tableau HTML présentant 4 colonnes contenant respectivement :
+-l'identifiant nommé id,
+-le code nommé code,
+-le nom nommé nom,
+-le drapeau nommé drapeau, dans le cas ou le drapeau du pays n'est pas présent une case vide sera affichée,
+
+pour finir si vous avez le temps réaliser un système tel que celui-ci permette :
+de sélectionner une entrée à partir d'un lien utilisant la colonne id et positionné sur chaque ligne de la table HTML précédente,
+de modifier cette entrée ce qui signifie que ce lien menera à un formulaire permettant :
+-de changer le nom du pays,
+-de changer le code du pays,
+-de changer le drapeau par envoi d'un nouveau fichier image via upload HTTP,

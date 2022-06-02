@@ -1,0 +1,23 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+}
+.div1,.div2{
+    overflow: scroll;
+    max-height: 500px;
+    max-width: 500px;
+}
+.div1 { grid-area: 1 / 1 / 6 / 2; }
+.div2 { grid-area: 1 / 2 / 6 / 6; } 
+td,img{ 
+    border: solid 1px black;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+:target {
+    background-color: tomato;
+}
